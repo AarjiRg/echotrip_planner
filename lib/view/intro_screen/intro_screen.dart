@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:echotrip_planner/view/bottom_nav_bar/bottom_nav_bar.dart';
 import 'package:echotrip_planner/view/home_screen/home_screen.dart';
+import 'package:echotrip_planner/view/login_screen/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -32,7 +33,7 @@ class _IntroScreenState extends State<IntroScreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => BottomNavScreen(),
+          builder: (context) => LoginScreen(),
         ),
       );
     });

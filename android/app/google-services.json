@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1020919356845",
+    "project_id": "echo-trip-planner",
+    "storage_bucket": "echo-trip-planner.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020919356845:android:a94acc14d511622a215524",
+        "android_client_info": {
+          "package_name": "com.example.echotrip_planner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWCnqpDbOb8cGrnYkFaPnSoJPEIk66eS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

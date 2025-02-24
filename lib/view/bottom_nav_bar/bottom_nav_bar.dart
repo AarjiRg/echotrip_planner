@@ -1,4 +1,5 @@
 import 'package:echotrip_planner/view/home_screen/home_screen.dart';
+import 'package:echotrip_planner/view/navigation_screen/navigation_screen.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavScreen extends StatefulWidget {
@@ -12,14 +13,15 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
   int sindex = 0;
   final List<Widget> screens = [
     HomeScreen(),
+     MapSearchScreen(),
     Container(color: Colors.pink),
     Container(color: Colors.blue),
+   
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       body: Stack(
         children: [
           screens[sindex],
